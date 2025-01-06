@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
-import ProjectsPage from "/home/user/nfcco/src/assets/AboutPage/_KGP6807 copy.JPG";
+import ProjectsPage from "../assets/AboutPage/_KGP6807 copy.JPG";
 import "./Projects.css";
 
 function Projects() {
