@@ -40,7 +40,7 @@
 
     return (
       <div className="blog-preview">
-      <div className="blog-previe-top">
+      <div className="blog-preview-top">
           <p>[Blog]</p>
           <button>See more blogs</button>
       </div>

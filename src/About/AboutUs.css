@@ -4,5 +4,159 @@ body {
     font-family: "Jost", serif;
     font-weight: 400;
     line-height: 1.5;
+    background-color: #374836;
+}
+
+h2, h3 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+ul, li {
+    text-decoration: none;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
+/* ------------------------------------------------------------------- */
+
+.projects-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://ik.imagekit.io/fcuzgktdi/assets/pexels-joe-arts-1830507-3505000%20(1).webp");
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+}
+
+.navbar {
+    position: absolute;
+}
+
+.nav-button-container {
+    display: flex;
+    gap: 12px;
+    padding: 0px 40px;
+    font-size: 20px;
+}
+
+.main-heading {
+    display: flex;
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #fff;
+    font-size: clamp(5rem);
+    padding: 0px 40px;
+}
+
+/* ------------------------------------------------------------------- */
+
+.section-classes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #fafbf3;
+    font-size: 20px;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.paragraph-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px; 
+    align-items: center;
+}
+
+.section-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cards-container-main {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.section-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.communities {
+    display: flex;
+    flex-direction: column ;
+}
+
+.paragraph-2{
+    width: 700px;
+    column-count: 2;
+    column-fill: balance;
+}
+
+/* ------------------------------------------------------------------- */
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.4s ease, background-color 0.4s ease;
+}
+
+.gallery-button {
+    background-color: #374836;
+    color: #fff;
+}
+
+.gallery-button:hover, .gallery-button:active {
+    background-color: #e6b800;
+}
+
+.projects-button {
+    background-color: #fafbf3;
     color: #000;
 }
+
+.projects-button:hover, .projects-button:active {
+    background-color: #e6b800;
+}
+
+/* ------------------------------------------------------------------- */
+.section-1, .section-7 {
+    background-color: #e1ede3;
+}
+
+.section-2, .section-4, .section-6{
+    background-color: #374836;
+    color: #fafbf3;
+}
+/* ------------------------------------------------------------------- */

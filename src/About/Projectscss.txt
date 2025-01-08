@@ -1,0 +1,38 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: "Jost", serif;
+}
+
+.projects-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/home/user/nfcco/src/assets/pexels-joe-arts-1830507-3505000.webp");
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+}
+
+.navbar {
+    position: absolute;
+}
+
+.projects-header {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: rgb(255, 255, 255); 
+    text-align: left;
+    padding-left: clamp(0px, 5vw, 6rem);
+}
+
+.projects-header h1 {
+    padding: 5px;
+    font-size: clamp(1.5rem, 10vw, 2rem);
+}
+
+.projects-header h2 {
+    font-size: clamp(2rem, 20vw, 7rem);
+}

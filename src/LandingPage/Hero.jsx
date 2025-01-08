@@ -38,7 +38,7 @@ function Hero() {
                             <button
                                 className="about-us-button"
                                 aria-label="Learn more about us"
-                                onClick={() => window.location.href = '#about-us'}
+                                onClick={() => window.location.href = 'about'}
                             >
                                 About Us
                             </button>

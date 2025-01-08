@@ -14,7 +14,7 @@ function Navbar() {
       {/* Center: Links */}
       <div className="navbar-links">
         <a href="#home" className="navbar-link">Home</a>
-        <a href="#about" className="navbar-link">About</a>
+        <a href="about" className="navbar-link">About</a>
         <a href="#services" className="navbar-link">Services</a>
         <a href="#contact" className="navbar-link">Contact</a>
       </div>
