@@ -1,0 +1,36 @@
+/* Main container for the gallery */
+.gallery {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    background-color: #66785F;
+    padding: clamp(5rem, 10rem, 5rem);
+  }
+  
+  /* Scrolling wrapper */
+  .gallery__scroll {
+    display: flex;
+    animation: scroll 20s linear infinite;
+  }
+  
+  /* Gallery images styling */
+  .gallery__image {
+    height: 400px;
+    width: auto;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  /* Scroll animation */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

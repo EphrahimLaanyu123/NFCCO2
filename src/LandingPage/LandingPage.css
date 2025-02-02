@@ -1,0 +1,8 @@
+body {
+    overflow-x: hidden;
+
+}
+
+.header {
+    z-index: 1000;
+}

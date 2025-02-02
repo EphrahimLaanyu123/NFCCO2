@@ -1,0 +1,210 @@
+/* Default styles for screens above 1000px (Desktop version) */
+.blog-preview {
+  background-color: #FAFBF3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog-previe-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+  padding-left: 6rem;
+  font-family: "Jost", serif;
+}
+
+.blog-previe-top p {
+  font-size: 2rem;
+}
+
+.blog-previe-top button {
+  font-size: 2rem;
+  padding-right: 6rem;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.blog-preview-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem;
+  padding-left: 8rem;
+  font-family: "Jost", serif;
+}
+
+.blog-card {
+  position: relative;
+  width: 200px;
+  height: 800px;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.blog-card-large {
+  width: 450px;
+}
+
+.blog-card-small {
+  width: 280px;
+}
+
+.blog-card-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+  background-color: #ddd;
+  position: relative;
+}
+
+.northeast-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  margin: 1.5rem;
+  border-radius: 50%;
+}
+
+.blog-card-content {
+  padding: 2rem;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  text-align: left;
+  color: white;
+}
+
+.blog-card-title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+}
+
+.blog-card-summary {
+  font-size: 1.5rem;
+  color: #ddd;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.hide-summary {
+  display: none;
+}
+
+.show-summary {
+  display: block;
+}
+
+/* Mobile-specific styles (screens smaller than 1000px) */
+@media (max-width: 999px) {
+  /* Hide the desktop version */
+  .blog-preview-container {
+    display: none;
+  }
+
+  /* Show the mobile version */
+  .conservancy-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    background-color: #FAFBF3;
+    font-family: "Jost", serif;
+  }
+
+  .latest-news-title {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 24px;
+    color: #333;
+    text-decoration: overline;
+    text-decoration-thickness: 3px; /* Adjust the thickness of the overline */
+  }
+
+  .article-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .article-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .article-content {
+    padding: 12px;
+  }
+
+  .article-title {
+    font-size: 1.5rem;
+    margin: 8px 0;
+    color: #333;
+  }
+
+  .article-summary {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #555;
+  }
+
+  .article-date {
+    font-size: 0.85rem;
+    color: #777;
+    margin-bottom: 8px;
+  }
+
+  /* Adjust layout for mobile view */
+  .blog-previe-top {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .blog-previe-top p {
+    font-size: 1.5rem;
+  }
+
+  .blog-previe-top button {
+    font-size: 1.5rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Desktop version styles (screens larger than 1000px) */
+@media (min-width: 1000px) {
+  /* Show the desktop version */
+  .blog-preview-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem;
+    padding-left: 8rem;
+  }
+
+  /* Hide the mobile version */
+  .conservancy-container {
+    display: none;
+  }
+}

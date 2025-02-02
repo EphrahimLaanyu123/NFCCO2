@@ -1,0 +1,108 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: "Jost", serif;
+    background-color: #FAFBF3;
+}
+
+.projects-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://ik.imagekit.io/fcuzgktdi/assets/pexels-joe-arts-1830507-3505000%20(1).webp");
+    background-size: cover;
+    background-position: center;
+    height: 600px; 
+}
+
+.navbar {
+    position: absolute;
+}
+
+.projects-header {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: rgb(255, 255, 255); 
+    text-align: left;
+    padding-left: clamp(0px, 5vw, 6rem);
+}
+
+.projects-header h1 {
+    padding: 5px;
+    font-size: clamp(1.5rem, 10vw, 1.7rem);
+}
+
+.projects-header h2 {
+    font-size: clamp(2rem, 20vw, 7rem);
+}
+
+.projects-bottom-top {
+    padding: clamp(0rem, 5vw, 8rem);
+    font-size: clamp(1rem, 3vw, 1.7rem);
+}
+
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    padding: clamp(0rem, 5vw, 6rem);
+    gap: 4rem;
+}
+
+.project-card {
+    border-bottom: 2px solid #ccc; /* Add a bottom border for the underline effect */
+    font-size: clamp(1rem, 3vw, 1.3rem);
+
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: clamp(1rem, 3vw, 1.7rem);
+    text-transform: uppercase;
+}
+
+.project-description {
+    font-size: clamp(1rem, 3vw, 1.3rem);
+
+}
+
+.dropdown-arrow {
+    transition: transform 0.3s ease;
+}
+
+.dropdown-icon {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    margin-left: 10px; /* space between title and arrow */
+}
+
+.project-card p {
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.project-card h4 {
+    margin-top: 10px;
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.project-card ul {
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.project-card li {
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+/* Rotate the arrow when description is shown */
+.dropdown-arrow.open {
+    transform: rotate(180deg);
+}

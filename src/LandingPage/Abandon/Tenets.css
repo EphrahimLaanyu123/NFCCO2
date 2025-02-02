@@ -1,0 +1,243 @@
+.tenets {
+    display: flex;
+    flex-direction: column;
+    background-color: #AAB396;
+    padding: 2rem;
+    gap: 3rem;
+    font-family: "Jost", serif;
+}
+.tenets-top {
+    display: flex; /* Align children side by side */
+    justify-content: space-between; /* Space out title and list */
+    align-items: flex-start; /* Align title and list to the top */
+    gap: 2rem; /* Add space between title and list */
+    font-family: "Jost", serif;
+
+}
+.tenets-top-title {
+    flex: 1; /* Allow title to take available space */
+    padding-left: 5rem;
+}
+.tenets-list-item  {
+    gap: 100px;
+}
+
+.tenets-top h2 {
+    font-size: 2rem;
+}
+
+.tenets-top-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Uniform spacing between list items */
+    margin-top: 20px;
+}
+
+.tenets-list-item {
+    display: flex;
+    justify-content: space-between; /* Ensures even spacing between title and number */
+    align-items: center; /* Vertically aligns content */
+    font-size: 18px;
+    color: #333;
+    border-bottom: 2px solid #333; /* Underline for each item */
+    padding-bottom: 5px; /* Space between text and underline */
+}
+
+.tenets-list-title {
+    flex-grow: 1; /* Makes sure titles take available space */
+}
+
+.tenets-list-number {
+    margin-left: 20px; /* Adds consistent spacing from the title */
+    color: #555; /* Subtle color for numbers */
+    font-size: 16px;
+}
+
+
+
+
+
+.tenet-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    gap: 2rem;
+}
+
+.tenet-card img {
+    width: 350px;
+    height: auto;
+        transition: transform 0.3s ease-in-out;
+}
+
+.tenet-card img:hover {
+    transform: scale(1.05);
+}
+
+.tenet-title {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333; /* Example color */
+    text-transform: uppercase;
+}
+
+.tenets-bottom-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .tenets-top {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .tenets-top-title {
+        padding-left: 0;
+        text-align: center;
+    }
+    .tenets-top-list {
+        display: none;
+    }
+    .tenets-bottom-cards {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .tenet-card img {
+        width: 250px;
+    }
+
+    .tenets-list-item {
+        font-size: 16px;
+    }
+
+    .tenets-list-number {
+        font-size: 14px;
+    }
+
+    .tenets {
+        padding: 1rem; /* Reduced padding for larger screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .tenets {
+        padding: 0.5rem; /* More reduced padding for smaller screens */
+    }
+    .tenets-top-title {
+        padding-left: 2.5rem;
+        padding-top: 2rem;
+        text-align: left;
+    }
+    .tenets-top h2 {
+        font-size: 1.5rem;
+    }
+
+    .tenets-list-item {
+        font-size: 14px;
+    }
+
+    .tenet-card {
+        margin: 5px;
+        gap: 1.5rem;
+    }
+
+    .tenet-card img {
+        width: 220px;
+    }
+
+    .tenets-bottom-cards {
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .tenets-top {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .tenets-top-title {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .tenets-list-item {
+        font-size: 12px;
+    }
+
+    .tenet-card img {
+        width: 200px;
+    }
+
+    .tenets-bottom-cards {
+        gap: 1.5rem;
+    }
+
+    .tenets {
+        padding: 0.5rem; /* Further reduced padding for smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .tenets-top h2 {
+        font-size: 1.2rem;
+    }
+
+    .tenets-list-item {
+        font-size: 12px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .tenet-card {
+        margin:0;
+    }
+
+    .tenet-card img {
+        width: 180px;
+    }
+
+    .tenets-bottom-cards {
+        flex-direction: column;
+    }
+
+    .tenets {
+        padding: 0.3rem; /* More reduced padding for very small screens */
+    }
+}
+
+@media (max-width: 400px) {
+    .tenets-top h2 {
+        font-size: 1rem;
+    }
+
+    .tenets-list-item {
+        font-size: 10px;
+    }
+
+    .tenet-card img {
+        width: 150px;
+    }
+
+    .tenets-bottom-cards {
+        gap: 1rem;
+    }
+
+    .tenet-title {
+        font-size: 14px;
+    }
+
+    .tenets {
+        padding: 0.2rem; /* Minimal padding for extra small screens */
+    }
+}
