@@ -44,11 +44,11 @@ function Intro() {
         ) : (
           articles.map((article) => (
             <div key={article.id} className="article-card">
-              {article.image_data && (
   <img 
-  src={`data:image/jpeg;base64,${article.image_data}`} 
-  alt={article.title} 
-/>              )}
+    src={`data:image/jpeg;base64,${article.image_data}`} 
+    alt={article.title} 
+  />
+              )}
               <h2>{article.title}</h2>
               <p>{article.content}</p>
               <p className="author">By {article.author_name}</p>

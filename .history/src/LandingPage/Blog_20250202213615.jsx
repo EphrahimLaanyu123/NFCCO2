@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Blog.css';
 
-function Intro() {
+function Blog() {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -45,10 +45,8 @@ function Intro() {
           articles.map((article) => (
             <div key={article.id} className="article-card">
               {article.image_data && (
-  <img 
-  src={`data:image/jpeg;base64,${article.image_data}`} 
-  alt={article.title} 
-/>              )}
+                <img src={article.image_data} alt={article.title} />
+              )}
               <h2>{article.title}</h2>
               <p>{article.content}</p>
               <p className="author">By {article.author_name}</p>
@@ -61,4 +59,4 @@ function Intro() {
   );
 }
 
-export default Intro;
+export default Blog;

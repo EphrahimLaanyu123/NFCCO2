@@ -14,7 +14,6 @@ import Intro from '../Footer/Intro';
 import Header from '../Navbar/header/index';
 import Nav from './Nav';
 
-
 function LandingPage() {
   useEffect(() => {
     const lenis = new Lenis();

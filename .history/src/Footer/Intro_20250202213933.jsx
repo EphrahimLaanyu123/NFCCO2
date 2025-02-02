@@ -8,7 +8,7 @@ function Intro() {
 
   useEffect(() => {
     // Fetch approved articles from the API
-    fetch('https://nffco-backend.onrender.com/articles/approved')
+    fetch('http://127.0.0.1:5000/articles/approved')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Failed to fetch articles');
@@ -45,10 +45,8 @@ function Intro() {
           articles.map((article) => (
             <div key={article.id} className="article-card">
               {article.image_data && (
-  <img 
-  src={`data:image/jpeg;base64,${article.image_data}`} 
-  alt={article.title} 
-/>              )}
+                <img src={article.image_data} alt={article.title} />
+              )}
               <h2>{article.title}</h2>
               <p>{article.content}</p>
               <p className="author">By {article.author_name}</p>

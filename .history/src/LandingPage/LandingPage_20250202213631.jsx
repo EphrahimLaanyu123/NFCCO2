@@ -13,7 +13,7 @@ import Footer from '../Footer/Footer1';
 import Intro from '../Footer/Intro';
 import Header from '../Navbar/header/index';
 import Nav from './Nav';
-
+import
 
 function LandingPage() {
   useEffect(() => {
