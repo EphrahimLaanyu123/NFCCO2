@@ -1,6 +1,14 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect,useState, useRef } from 'react';
 import './Hero2.css';
+// Import local images
+import Image1 from '../assets/AboutPage/_KGP6268 (2).JPG';
+import Image2 from '../assets/AboutPage/_KGP5796.JPG';
+import Image3 from '../assets/AboutPage/_KGP6155.JPG';
+import Image4 from '../assets/_KGP6807.JPG';
 import axios from 'axios';
+
+
+
 
 const Hero2 = () => {
   const nextDom = useRef(null);
@@ -21,7 +29,6 @@ const Hero2 = () => {
     image3: null,
     image4: null,
   });
-
   useEffect(() => {
     // Fetch images for page_id 1
     axios.get('http://127.0.0.1:5000/pages/1/images') // Update URL to match your Flask server
@@ -103,9 +110,7 @@ const Hero2 = () => {
         {/* List Items */}
         <div className="list" ref={SliderDom}>
           <div className="item">
-            {images.image1 && (
-              <img src={`data:image/jpeg;base64,${images.image1.file_data}`} alt="Slide 1" />
-            )}
+            <img src={Image1} alt="Slide 1" />
             <div className="content">
               <div className="author">WELCOME TO</div>
               <div className="title">NDOTO FOREST</div>
@@ -120,9 +125,7 @@ const Hero2 = () => {
             </div>
           </div>
           <div className="item">
-            {images.image2 && (
-              <img src={`data:image/jpeg;base64,${images.image2.file_data}`} alt="Slide 2" />
-            )}
+            <img src={Image2}alt="Slide 2" />
             <div className="content">
               <div className="author">WELCOME TO</div>
               <div className="title">NDOTO FOREST</div>
@@ -137,9 +140,7 @@ const Hero2 = () => {
             </div>
           </div>
           <div className="item">
-            {images.image3 && (
-              <img src={`data:image/jpeg;base64,${images.image3.file_data}`} alt="Slide 3" />
-            )}
+            <img src={Image3} alt="Slide 3" />
             <div className="content">
               <div className="author">WELCOME TO</div>
               <div className="title">NDOTO FOREST</div>
@@ -154,9 +155,7 @@ const Hero2 = () => {
             </div>
           </div>
           <div className="item">
-            {images.image4 && (
-              <img src={`data:image/jpeg;base64,${images.image4.file_data}`} alt="Slide 4" />
-            )}
+            <img src={Image4}alt="Slide 4" />
             <div className="content">
               <div className="author">WELCOME TO</div>
               <div className="title">NDOTO FOREST</div>
@@ -175,36 +174,28 @@ const Hero2 = () => {
         {/* Thumbnail */}
         <div className="thumbnail" ref={thumbnailBorderDom}>
           <div className="item">
-            {images.image1 && (
-              <img src={`data:image/jpeg;base64,${images.image1.file_data}`} alt="Thumbnail 1" />
-            )}
+            <img src={Image1} alt="Thumbnail 1" />
             <div className="content">
               <div className="title">Name Slider</div>
               <div className="description">Description</div>
             </div>
           </div>
           <div className="item">
-            {images.image2 && (
-              <img src={`data:image/jpeg;base64,${images.image2.file_data}`} alt="Thumbnail 2" />
-            )}
+            <img src={Image2} alt="Thumbnail 2" />
             <div className="content">
               <div className="title">Name Slider</div>
               <div className="description">Description</div>
             </div>
           </div>
           <div className="item">
-            {images.image3 && (
-              <img src={`data:image/jpeg;base64,${images.image3.file_data}`} alt="Thumbnail 3" />
-            )}
+            <img src={Image3} alt="Thumbnail 3" />
             <div className="content">
               <div className="title">Name Slider</div>
               <div className="description">Description</div>
             </div>
           </div>
           <div className="item">
-            {images.image4 && (
-              <img src={`data:image/jpeg;base64,${images.image4.file_data}`} alt="Thumbnail 4" />
-            )}
+            <img src={Image4} alt="Thumbnail 4" />
             <div className="content">
               <div className="title">Name Slider</div>
               <div className="description">Description</div>
