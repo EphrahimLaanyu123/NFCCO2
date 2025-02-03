@@ -113,15 +113,15 @@ input:checked + label .description {
 }
 
 .card2 {
-    background-image: url('https://ik.imagekit.io/fcuzgktdi/assets/_KGP6196.JPG?updatedAt=1735723840497');
+    background-image: url('../assets/AboutPage/_KGP5796.JPG');
 }
 
 .card3 {
-    background-image: url('https://ik.imagekit.io/fcuzgktdi/assets/_KGP6196.JPG?updatedAt=1735723840497');
+    background-image: url('../assets/AboutPage/_KGP6155.JPG');
 }
 
 .card4 {
-    background-image: url('https://ik.imagekit.io/fcuzgktdi/assets/_KGP6196.JPG?updatedAt=1735723840497');
+    background-image: url('../assets/_KGP6807.JPG');
 }
 
 /* Media Queries for Mobile Responsiveness */
