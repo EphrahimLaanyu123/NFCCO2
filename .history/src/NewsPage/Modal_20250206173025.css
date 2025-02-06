@@ -1,0 +1,84 @@
+// Modal.jsx
+import React, { useState } from 'react';
+import axios from 'axios';
+import './Modal.css';
+
+export default function Modal({ showModal, closeModal }) {
+  const [title, setTitle] = useState('');
+  const [content, setContent] = useState('');
+  const [authorName, setAuthorName] = useState('');
+  const [image, setImage] = useState(null);
+  const [successMessage, setSuccessMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const formData = new FormData();
+    formData.append('title', title);
+    formData.append('content', content);
+    formData.append('author_name', authorName);
+    if (image) formData.append('image_url', image);
+
+    try {
+      const response = await axios.post('http://localhost:5000/suggested_articles', formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+        },
+      });
+      setSuccessMessage(response.data.message);
+      setErrorMessage('');
+      setTimeout(() => {
+        closeModal(); // Close the modal after success
+      }, 2000);
+    } catch (error) {
+      setErrorMessage('Failed to submit article. Please try again later.');
+      setSuccessMessage('');
+    }
+  };
+
+  return (
+    <>
+      {showModal && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <h2>Suggest an Article</h2>
+            <form onSubmit={handleSubmit}>
+              <input
+                type="text"
+                placeholder="Title"
+                value={title}
+                onChange={(e) => setTitle(e.target.value)}
+                required
+              />
+              <textarea
+                placeholder="Content"
+                value={content}
+                onChange={(e) => setContent(e.target.value)}
+                required
+              />
+              <input
+                type="text"
+                placeholder="Author Name"
+                value={authorName}
+                onChange={(e) => setAuthorName(e.target.value)}
+                required
+              />
+              <input
+                type="file"
+                accept="image/*"
+                onChange={(e) => setImage(e.target.files[0])}
+              />
+              <button type="submit">Submit Article</button>
+            </form>
+            {successMessage && <p className="success-message">{successMessage}</p>}
+            {errorMessage && <p className="error-message">{errorMessage}</p>}
+            <button className="close-btn" onClick={closeModal}>
+              Close
+            </button>
+          </div>
+        </div>
+      )}
+    </>
+  );
+}
+      

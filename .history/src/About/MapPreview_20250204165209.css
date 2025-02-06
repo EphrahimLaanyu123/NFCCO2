@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+
+.map-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 100vh;
+  /* background-color: #66785F; */
+  background-color: #ffffff;
+
+  font-family: "Cinzel";
+}
+
+/* Left section (Map) */
+.map-left {
+  flex: 1;
+  max-width: 50%;
+  padding: 6rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: #000000; /* Orange color */
+  margin-bottom: 15px;
+}
+
+iframe {
+  width: 100%;
+  height: 700px;
+  border: none;
+}
+
+/* Right section (Description) */
+.map-right {
+  flex: 1;
+  max-width: 50%;
+  padding: 10px;
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Responsive design: Stack left and right sections on smaller screens */
+@media (max-width: 768px) {
+  .map-container {
+    flex-direction: column;
+  }
+
+  .map-left, .map-right {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  iframe {
+    height: 300px;
+  }
+}

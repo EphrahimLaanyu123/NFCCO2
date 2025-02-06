@@ -1,0 +1,74 @@
+/* Section styles */
+.section-wrapper {
+  background-color: #AAB396;
+}
+
+.section-content {
+  max-width: 80%;
+  margin: 0 auto;
+  color: #AAB396;
+  padding: 20px;
+}
+
+.section-title {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50%;
+  height: 2px;
+  background-color: white;
+}
+
+.section-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  line-height: 1.8;
+  font-weight: 300;
+  margin-top: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: relative;
+  color: white;
+}
+
+.section-text::before,
+.section-text::after {
+  content: '"';
+  position: absolute;
+  font-size: 3rem;
+  top: -1.5rem;
+  color: #fff;
+}
+
+.section-text::before {
+  left: -2rem;
+}
+
+.section-text::after {
+  right: -2rem;
+}
+
+/* Button styles */
+.suggest-button {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.suggest-button:hover {
+  background-color: #0056b3;
+}

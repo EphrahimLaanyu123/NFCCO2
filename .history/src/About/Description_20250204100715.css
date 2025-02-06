@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gabarito:wght@400..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lacquer&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+
+
+.aboutus-artcile {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #FFF8E8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aboutus-artcile-top {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  text-align: center;
+}
+
+.aboutus-artcile-top-1 {
+  font-family: "Cinzel", serif;
+  font-size: 1.8rem;
+  color: #000000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.aboutus-artcile-top-2 img {
+  width: 100%;
+  max-width: 200px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.aboutus-artcile-top-3 {
+  max-width: 800px;
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.aboutus-article-bottom {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+
+
+/* .article-description {
+    width: 50%;
+
+}
+
+.article-description-p {
+    font-family: "Montserrat", serif;
+    padding: 6rem;
+    display: block;
+    margin: 16px 0;
+    text-align: justify;
+    line-height: 1.6; 
+    font-size: 1.5rem;
+}
+
+
+.whoweare {
+    width: 50%;
+    padding: 0;
+    text-align: left;
+    padding: 6rem;
+    font-size: 5rem;
+    
+} */

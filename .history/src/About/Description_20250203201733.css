@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gabarito:wght@400..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lacquer&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.about-us {
+    position: relative;
+    bottom: 1.25rem; /* equivalent to Tailwind's bottom-5 */
+    right: 1.25rem;  /* equivalent to Tailwind's right-5 */
+    color: rgb(255, 255, 255);
+    font-size: 13rem; /* equivalent to Tailwind's text-lg */
+    padding: 0.5rem 1rem; /* equivalent to Tailwind's px-4 py-2 */
+    border-radius: 0.5rem; /* equivalent to Tailwind's rounded-lg */
+    font-family: "Montserrat", serif;
+}
+
+.underline {
+    width: 100%;
+    background-color: white;
+    height: 2px;
+}
+
+.description {
+    font-family: "Montserrat", serif;
+    font-size: 3.5rem;
+    text-align: left;
+}
+
