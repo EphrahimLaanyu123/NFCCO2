@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
-import Background from '/home/user/nfcco/src/assets/_KGP6196.JPG';
+import Background from '../assets/_KGP6196.JPG';
 import "./Section.css";
 
 export default function Section() {

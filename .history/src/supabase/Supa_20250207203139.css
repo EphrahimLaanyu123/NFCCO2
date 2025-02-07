@@ -1,0 +1,148 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  
+  .card {
+    padding: 2em;
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  
+  
+  /* App.css */
+  .app-container {
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px;
+  }
+  
+  .input-area {
+    display: flex; /* Arrange inputs horizontally */
+    flex-direction: column; /* Stack input elements */
+    gap: 10px; /* Add spacing between inputs */
+    margin-bottom: 20px;
+  }
+  
+  .input-area input,
+  .input-area textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Round the corners */
+    font-size: 16px; /* Make the text bigger */
+  }
+  
+  .input-area textarea {
+    height: 100px; /* Make the textarea taller */
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  .input-area button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .input-area button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .article-list {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+  }
+  
+  .article-item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .article-item h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  .article-item p {
+      margin-bottom: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  /* Responsive design (example) */
+  @media (max-width: 600px) {
+    .input-area {
+      flex-direction: column; /* Stack inputs vertically on smaller screens */
+    }
+  }
+  
+  .article-item {
+    /* ... existing styles ... */
+    position: relative; /* For positioning edit inputs */
+  }
+  
+  .article-item div { /* Style the container for normal/edit mode */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 5px; /* Add spacing between elements */
+  }
+  
+  .article-item input,
+  .article-item textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .article-item textarea {
+    height: 80px;
+    resize: vertical;
+  }
+  
+  .article-actions {
+    /* ... existing styles ... */
+    margin-top: 5px; /* Reduced margin */
+  }
+  
+  /* Style for edit/save buttons */
+  .article-item button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .article-item button:first-of-type { /* Delete */
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .article-item button:nth-of-type(2) { /* Edit/Save */
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .article-item button:last-of-type { /* Cancel */
+    background-color: #ff9800; /* Amber */
+    color: white;
+  }

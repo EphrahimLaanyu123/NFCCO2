@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Gabarito:wght@400..900&display=swap');
+
+/* Remove border-radius from all elements */
+* {
+  border-radius: 0 !important;
+}
+
+/* Container styles */
+.unique-description-container {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background-color: #f3f4f6;
+  font-family: "Cinzel", serif;
+}
+
+/* Title styles */
+.unique-description-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+  font-family: "Cinzel", serif;
+}
+
+/* Loading and error messages */
+.unique-loading-message, .unique-error-message, .unique-no-articles-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 20px;
+}
+
+.unique-error-message {
+  color: #ff4d4f;
+}
+
+/* Articles grid */
+.unique-articles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three cards per row */
+  gap: 20px;
+  font-family: "Gabarito", serif;
+  padding: 8rem;
+}
+
+
+.unique-article-card {
+  width: 100%;
+  padding: 16px;
+  transition: transform 0.2s;
+  font-family: "Cinzel", serif;
+  border: none;
+}
+
+.unique-article-card:hover {
+  transform: translateY(-5px);
+}
+
+.unique-article-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.unique-article-content {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 8px;
+}
+
+.unique-article-author {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 5px;
+}
+
+.unique-article-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 10px;
+}

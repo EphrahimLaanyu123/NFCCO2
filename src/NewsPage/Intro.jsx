@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
-import Background from '/home/user/nfcco/src/assets/AboutPage/_KGP6014.JPG';
+import Background from '../assets/AboutPage/_KGP6014.JPG';
 import "./Intro.css"
 
 export default function Intro() {
