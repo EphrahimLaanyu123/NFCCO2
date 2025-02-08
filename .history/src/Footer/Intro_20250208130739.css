@@ -1,0 +1,13 @@
+/* Import the Cinzel font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+
+.Intro {
+    height: 100vh;
+    background-color: #f4f4f4; /* Optional: a light background color */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+

@@ -1,0 +1,74 @@
+/* Import the Cinzel font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+
+.Intro {
+    height: 100vh;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700; /* Make the title bold */
+  color: #333; /* Dark color for better contrast */
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.articles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.article-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.article-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.article-card h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin: 15px 0;
+}
+
+.article-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.author {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.date {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.loading,
+.error {
+  font-size: 1.2rem;
+  color: #e74c3c;
+  text-align: center;
+  margin-top: 50px;
+}
