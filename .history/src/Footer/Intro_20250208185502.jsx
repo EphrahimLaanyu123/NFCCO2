@@ -45,6 +45,7 @@ function Intro() {
                 loading="lazy" // Lazy loading enabled
                 className="article-image"
             />
+
               )}
               <h2>{article.title}</h2>
               <p>{article.preview}</p>

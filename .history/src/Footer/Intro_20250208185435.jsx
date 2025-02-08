@@ -40,11 +40,10 @@ function Intro() {
             <div key={article.id} className="card-article">
               {article.image && (
                 <img 
-                src={article.image} 
-                alt={article.title} 
-                loading="lazy" // Lazy loading enabled
-                className="article-image"
-            />
+                  src={article.image} 
+                  alt={article.title} 
+                  loading='lazy'
+                />
               )}
               <h2>{article.title}</h2>
               <p>{article.preview}</p>
