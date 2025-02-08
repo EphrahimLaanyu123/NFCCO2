@@ -6,6 +6,7 @@ import ScrollToTop from "./ScrollToTop";
 import LandingPage from "./LandingPage/LandingPage";
 import Projects from "./About/Projects";
 import AboutUs from "./About/AboutUs";
+import Community from "./CommunityPage/community";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route exact path="/" element={<LandingPage />} />
         <Route exact path="/about/projects" element={<Projects />} />
         <Route exact path="/about" element={<AboutUs />} />
+        <Route exact path="/community" element={<Community/>} />
       </Routes>
     </Router>
   </React.StrictMode>
