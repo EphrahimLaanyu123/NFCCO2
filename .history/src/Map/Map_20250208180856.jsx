@@ -1,0 +1,14 @@
+import React from 'react'
+import Earth from './Earth'
+import Intro
+
+const Map = () => {
+  return (
+    <div>
+        <Earth></Earth>
+
+    </div>
+  )
+}
+
+export default Map

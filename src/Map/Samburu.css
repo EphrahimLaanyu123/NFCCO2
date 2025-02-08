@@ -1,0 +1,17 @@
+.samburu {
+    display: flex;
+    flex-direction: column;
+}
+
+.imageSection {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageSection img{
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+}

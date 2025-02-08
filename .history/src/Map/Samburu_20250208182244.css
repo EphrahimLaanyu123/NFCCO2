@@ -1,0 +1,13 @@
+.samburu {
+    display: flex;
+}
+
+.imageSection {
+    width: 50%;
+}
+
+.imageSection img{
+    width: 50px;
+    height: 400px;
+    
+}

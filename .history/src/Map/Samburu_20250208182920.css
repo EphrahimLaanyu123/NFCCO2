@@ -1,0 +1,16 @@
+.samburu {
+    display: flex;
+    flex-direction: column;
+}
+
+.imageSection {
+    width: 50%;
+    display: flex;
+    
+}
+
+.imageSection img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}

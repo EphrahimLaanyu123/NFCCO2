@@ -1,0 +1,67 @@
+/* Navbar styles */
+.navbar {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding: 6rem;
+    color: white;
+    transition: background 0.3s ease;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.7); /* Fallback for scroll effect */
+  }
+  
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-right: 20px;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar-links a:hover {
+    color: #ff6f61;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 10px 0;
+    width: 150px;
+    border-radius: 5px;
+  }
+  
+  .dropdown-menu a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #444;
+  }
+  
