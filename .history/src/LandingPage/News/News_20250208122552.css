@@ -43,7 +43,7 @@ body {
 
 /* Default card styles with grayscale effect */
 .card {
-    width: 100px;
+    width: 00px;
     height: 700px;
     border-radius: 0rem;
     background-size: cover;
@@ -97,7 +97,7 @@ body {
     }
 
     input:checked + label {
-        width: 10%;
+        width: 100%;
     }
 
     input:checked + label .description {

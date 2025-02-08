@@ -97,7 +97,7 @@ body {
     }
 
     input:checked + label {
-        width: 10%;
+        width: 100%;
     }
 
     input:checked + label .description {

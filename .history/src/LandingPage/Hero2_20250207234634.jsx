@@ -5,7 +5,6 @@ import Image1 from '../assets/AboutPage/_KGP6268 (2).JPG';
 import Image2 from '../assets/AboutPage/_KGP5796.JPG';
 import Image3 from '../assets/PHOTO-2024-08-03-09-18-27 (3).jpg';
 import Image4 from '../assets/_KGP6807.JPG';
-import { Link } from 'react-router-dom';
 
 
 const Hero2 = () => {
@@ -93,8 +92,7 @@ const Hero2 = () => {
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
               </div>
               <div className="buttons">
-                <Link to="./map">                <button>SEE MORE</button>
-                </Link>
+                <button>SEE MORE</button>
                 <button>SUBSCRIBE</button>
               </div>
             </div>
@@ -158,15 +156,15 @@ const Hero2 = () => {
           <div className="item">
             <img src={Image2} alt="Thumbnail 2" />
             <div className="content">
-              <div className="thumb-title">Name Slider</div>
-              <div className="thumb-description">Description</div>
+              <div className="title">Name Slider</div>
+              <div className="description">Description</div>
             </div>
           </div>
           <div className="item">
             <img src={Image3} alt="Thumbnail 3" />
             <div className="content">
-              <div className="thumb-title">Name Slider</div>
-              <div className="thumb-description">Description</div>
+              <div className="title">Name Slider</div>
+              <div className="description">Description</div>
             </div>
           </div>
           <div className="item">

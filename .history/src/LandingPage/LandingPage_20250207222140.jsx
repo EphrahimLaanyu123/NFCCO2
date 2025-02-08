@@ -35,7 +35,7 @@ function LandingPage() {
       <Card />
       <News />
       <Gallery />
-      {/* <Intro /> */}
+      <Intro />
       <Supa />
       <Footer /> 
     </div>

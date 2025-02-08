@@ -1,0 +1,16 @@
+/* Earth.css */
+.video-background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Ensure video is behind other content */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire area */
+  }
+  
+  /* You can add more styles for the container or other elements here */
+  #container {
+    position: relative; /* Needed for scroll triggering to work correctly */
+  }

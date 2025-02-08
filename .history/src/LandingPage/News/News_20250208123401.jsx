@@ -24,7 +24,7 @@ const News = () => {
                         <div className="icon">🦁</div>
                         <div className="description">
                             <h4>Lion</h4>
-                            {/* <p>Symbol of courage, leadership, and strength.</p> */}
+                            <p>Symbol of courage, leadership, and strength.</p>
                         </div>
                     </div>
                 </label>
@@ -35,7 +35,7 @@ const News = () => {
                         <div className="icon">🦒</div>
                         <div className="description">
                             <h4>Giraffe</h4>
-                            {/* <p>Inspires us to see far and aim high in all endeavors.</p> */}
+                            <p>Inspires us to see far and aim high in all endeavors.</p>
                         </div>
                     </div>
                 </label>

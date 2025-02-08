@@ -44,7 +44,7 @@ body {
 /* Default card styles with grayscale effect */
 .card {
     width: 100px;
-    height: 700px;
+    height: 500px;
     border-radius: 0rem;
     background-size: cover;
     cursor: pointer;
@@ -97,7 +97,7 @@ body {
     }
 
     input:checked + label {
-        width: 10%;
+        width: 100%;
     }
 
     input:checked + label .description {

@@ -9,7 +9,6 @@ import ServicesMain from "./Services/Services";
 import GalleryMain from "./Gallery/page";
 import NewsPage from "./NewsPage/NewsPage";
 import SuggestArticle from "./NewsPage/SuggestArticle";
-import Map from "./Map/Map";
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -24,7 +23,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/services" element={<ServicesMain/>} />
         <Route path="/news" element={<NewsPage/>} />
         <Route path="/add-article" element={<SuggestArticle/>} />
-        <Route path="/map" element={<Map/>} />
+        <Route path="/add-article" element={<SuggestArticle/>} />
       </Routes>
     </Router>
   </React.StrictMode>

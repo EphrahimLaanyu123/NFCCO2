@@ -44,7 +44,7 @@ body {
 /* Default card styles with grayscale effect */
 .card {
     width: 100px;
-    height: 700px;
+    height: 500px;
     border-radius: 0rem;
     background-size: cover;
     cursor: pointer;
@@ -97,7 +97,7 @@ body {
     }
 
     input:checked + label {
-        width: 10%;
+        width: 100%;
     }
 
     input:checked + label .description {
@@ -116,19 +116,19 @@ body {
 }
 
 .card3 {
-    background-image: url('https://ik.imagekit.io/fcuzgktdi/assets/pexels-monkeytactics-750536.jpg?updatedAt=1739006334338');
+    background-image: url('https://ik.imagekit.io/fcuzgktdi/assets/_KGP6196.JPG?updatedAt=1735723840497');
 }
 
 .card4 {
-    background-image: url('https://ik.imagekit.io/fcuzgktdi/assets/pexels-charldurand-6436639.jpg?updatedAt=1739006330324');
+    background-image: url('https://ik.imagekit.io/fcuzgktdi/assets/_KGP6196.JPG?updatedAt=1735723840497');
 }
 
 .card5 {
-    background-image: url('https://ik.imagekit.io/fcuzgktdi/assets/pexels-hasan-aytekin-1023768668-30593475.jpg?updatedAt=1739006332170');
+    background-image: url('https://ik.imagekit.io/fcuzgktdi/assets/_KGP6196.JPG?updatedAt=1735723840497');
 }
 
-.card6 {
-    background-image: url('https://ik.imagekit.io/fcuzgktdi/assets/pexels-hansmiddendorp-13322019.jpg?updatedAt=1739006333967');
+.card4 {
+    background-image: url('https://ik.imagekit.io/fcuzgktdi/assets/_KGP6196.JPG?updatedAt=1735723840497');
 }
 
 /* Card description and icon adjustments remain the same */

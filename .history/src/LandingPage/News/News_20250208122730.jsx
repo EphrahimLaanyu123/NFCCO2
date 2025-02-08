@@ -12,7 +12,7 @@ const News = () => {
     return (
         <div className="wrapper">
             <div className="wrapper-header">
-                <h1 className="wrapper-header-h1">ANIMALS</h1>
+                <h1 className="wrapper-header-h1">OUR TENET</h1>
                 <p className="wrapper-header-description">
                     We believe in principles that guide innovation, learning, and exploration across various domains. Here are some of our core tenets inspired by animals:
                 </p>
@@ -24,7 +24,7 @@ const News = () => {
                         <div className="icon">🦁</div>
                         <div className="description">
                             <h4>Lion</h4>
-                            {/* <p>Symbol of courage, leadership, and strength.</p> */}
+                            <p>Symbol of courage, leadership, and strength.</p>
                         </div>
                     </div>
                 </label>
@@ -35,7 +35,7 @@ const News = () => {
                         <div className="icon">🦒</div>
                         <div className="description">
                             <h4>Giraffe</h4>
-                            {/* <p>Inspires us to see far and aim high in all endeavors.</p> */}
+                            <p>Inspires us to see far and aim high in all endeavors.</p>
                         </div>
                     </div>
                 </label>
@@ -46,7 +46,7 @@ const News = () => {
                         <div className="icon">🐘</div>
                         <div className="description">
                             <h4>Elephant</h4>
-                            {/* <p>Wisdom, loyalty, and the importance of memory.</p> */}
+                            <p>Wisdom, loyalty, and the importance of memory.</p>
                         </div>
                     </div>
                 </label>
@@ -57,7 +57,7 @@ const News = () => {
                         <div className="icon">🦌</div>
                         <div className="description">
                             <h4>Kudu</h4>
-                            {/* <p>Elegance and adaptability in the face of challenges.</p> */}
+                            <p>Elegance and adaptability in the face of challenges.</p>
                         </div>
                     </div>
                 </label>
@@ -68,7 +68,7 @@ const News = () => {
                         <div className="icon">🐒</div>
                         <div className="description">
                             <h4>Gelada Monkey</h4>
-                            {/* <p>Cooperation, communication, and social intelligence.</p> */}
+                            <p>Cooperation, communication, and social intelligence.</p>
                         </div>
                     </div>
                 </label>
@@ -79,15 +79,15 @@ const News = () => {
                         <div className="icon">🦓</div>
                         <div className="description">
                             <h4>Grevy Zebra</h4>
-                            {/* <p>Balance, harmony, and individuality.</p> */}
+                            <p>Balance, harmony, and individuality.</p>
                         </div>
                     </div>
                 </label>
             </div>
-            {/* <footer className="news-footer">
+            <footer className="news-footer">
                 <p>Stay updated with our latest tenets and advancements.</p>
                 <button className="news-button" onClick={handleNavigate}>View More News</button>
-            </footer> */}
+            </footer>
         </div>
     );
 };

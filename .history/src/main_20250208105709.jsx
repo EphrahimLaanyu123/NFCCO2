@@ -24,7 +24,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/services" element={<ServicesMain/>} />
         <Route path="/news" element={<NewsPage/>} />
         <Route path="/add-article" element={<SuggestArticle/>} />
-        <Route path="/map" element={<Map/>} />
+        <Route path="/map" element={<SuggestArticle/>} />
       </Routes>
     </Router>
   </React.StrictMode>

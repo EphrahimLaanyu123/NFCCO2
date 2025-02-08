@@ -93,8 +93,7 @@ const Hero2 = () => {
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
               </div>
               <div className="buttons">
-                <Link to="./map">                <button>SEE MORE</button>
-                </Link>
+                <button>SEE MORE</button>
                 <button>SUBSCRIBE</button>
               </div>
             </div>

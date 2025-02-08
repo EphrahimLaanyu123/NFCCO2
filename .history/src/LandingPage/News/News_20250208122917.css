@@ -97,7 +97,7 @@ body {
     }
 
     input:checked + label {
-        width: 10%;
+        width: 100%;
     }
 
     input:checked + label .description {
@@ -135,7 +135,6 @@ body {
 .card > .row {
     color: white;
     display: flex;
-    flex-wrap: nowrap;
 }
 
 .card > .row > .icon {
