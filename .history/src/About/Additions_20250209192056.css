@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    font-family: "Montserrat", serif;
+
+  }
+  
+  .team-info {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .team-info h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-family: "Cinzel";
+
+  }
+  
+  .team-info p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .member-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .member-card.left {
+    order: 1;
+  }
+  
+  .member-card.right {
+    order: 2;
+  }
+  
+  .member-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .member-details h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .member-details p {
+    font-size: 1rem;
+    color: #777;
+  }
+  

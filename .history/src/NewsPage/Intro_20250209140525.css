@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gabarito:wght@400..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lacquer&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Gabarito:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.custom-about-us-container {
+  display: flex;
+}
+
+
+.custom-latest-article {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", serif;
+
+}
+.custom-article-card-latest {
+  padding: 5em;
+}
+.custom-article-img-latest {
+  border-radius: 10px;
+}
+.custom-section-title-latest {
+  font-size: 2em;
+  align-items: left;
+}
+
+.custom-article-title-latest {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+
+
+
+
+.custom-other-articles {
+  padding: 6rem;
+  width: 50%;
+  font-family: "Montserrat", serif;
+
+}
+
+.custom-articles-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.custom-article-card-other {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.custom-article-img-other {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+.article-content {
+  flex: 1;
+}
+
+.custom-article-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.custom-article-date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.custom-article-summary {
+  font-size: 1rem;
+  color: #333;
+}

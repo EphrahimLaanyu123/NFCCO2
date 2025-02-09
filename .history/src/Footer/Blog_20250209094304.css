@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.News {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6rem;
+}
+
+.header-h1 {
+  display: flex;
+  font-size: 2.5rem;
+  color: #333; /* Dark color for better contrast */
+  margin-top: 20px;
+  font-family: "Cinzel", serif;
+  text-decoration: underline;
+  text-underline-offset: 20px;
+}
+
+.articles-container {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  padding: 6rem;
+  width: 100%;
+  font-family: "EB Garamond", serif;
+}
+
+.card-article {
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s ease;
+  font-family: "EB Garamond", serif;
+}
+
+.card-article:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.card-article img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-article h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin: 15px 0;
+}
+
+.card-article p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.author {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.date {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+.loading,
+.error {
+  font-size: 1.2rem;
+  color: #e74c3c;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.blog-button {
+  font-family: "Cinzel", serif;
+  background-color: #333;
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 1024px) {
+  .articles-container {
+    gap: 3rem; /* Reduces gap between cards on tablets */
+    padding: 3rem;
+  }
+  
+  .card-article {
+    width: 100%; /* Stack the cards vertically */
+    margin-bottom: 2rem; /* Adds spacing between stacked cards */
+  }
+
+  .card-article img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+@media (max-width: 768px) {
+  .articles-container {
+    gap: 1rem; /* Even smaller gap on mobile */
+    padding: 2rem;
+    flex-wrap: wrap; /* This will allow wrapping of items on smaller screens */
+
+  }
+
+  .card-article {
+    width: 100%; /* Ensure cards take up full width on mobile */
+    margin-bottom: 1.5rem;
+  }
+
+  .card-article img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .header-h1 {
+    font-size: 2rem; /* Smaller title on mobile */
+  }
+}
