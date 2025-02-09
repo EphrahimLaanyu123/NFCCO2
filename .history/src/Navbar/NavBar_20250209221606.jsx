@@ -32,7 +32,7 @@ const Navbar = () => {
           <div className="divider"></div>
           <li><a href="/#/Map">Map</a></li>
           <div className="divider"></div>
-          <li><a href="/#/gallery">Gallery</a></li>
+          <li><a href="/#/community"></a></li>
         </ul>
 
         {/* Footer */}
