@@ -19,8 +19,8 @@
   text-align: center;
 }
 
-.aboutus-artcile-top h1,
-.aboutus-artcile-top p {
+.aboutus-artcile-top ,
+.aboutus-artcile-top-3 {
   width: 40%;
   font-family: "Cinzel", serif;
   font-size: 1.8rem;
@@ -31,16 +31,14 @@
   padding: 2rem;
 }
 
-.aboutus-artcile-top img {
+.aboutus-artcile-top-2 {
   width: 20%;
   display: flex;
   justify-content: center;
   position: relative;
   height: clamp(200px, 30vw, 400px); /* Responsive height */
   overflow: hidden; /* Ensures image stays within the container */
-  object-fit: cover;
 }
-
 
 .aboutus-artcile-top-2 img {
   width: 100%;
@@ -50,7 +48,7 @@
 }
 
 
-.aboutus-artcile-top p {
+.aboutus-artcile-top-3 {
   font-size: clamp(1rem, 2vw, 1.1rem);
   color: #333;
   line-height: clamp(1.5, 2vw, 1.8);
@@ -149,24 +147,30 @@
 
 @media (max-width: 768px) {
   .aboutus-artcile-top {
-    flex-direction: column; /* Stack sections vertically on small screens */
-    align-items: center; /* Center-align the content */
-    gap: 1rem; /* Adjust gap between sections */
-    text-align: center; /* Center-align text */
+    flex-direction: column; /* Stacks the sections vertically */
+    gap: 1rem; /* Reduce the gap between sections */
+    text-align: center; /* Center-align text on smaller screens */
   }
 
-  .aboutus-artcile-top h1,
-  .aboutus-artcile-top p {
-    width: 100%; /* Ensure text takes full width on small screens */
+  .aboutus-artcile-top-1,
+  .aboutus-artcile-top-3 {
+    width: 100%; /* Make these sections take full width */
     font-size: 1.5rem; /* Adjust font size for better readability */
-    padding: 1rem; /* Adjust padding for mobile */
+    padding: 1rem; /* Reduce padding for mobile */
   }
 
-  .aboutus-artcile-top img {
-    width: 100%; /* Make the image take full width */
-    height: 200px; /* Adjust image height for mobile */
-    object-fit: cover; /* Ensure image covers the container */
+  .aboutus-artcile-top-2 {
+    width: 100%; /* Make the image section take full width */
+    height: 250px; /* Adjust image height for mobile */
   }
+
+  .aboutus-artcile-top-2 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    box-shadow: none; /* Remove shadow for smaller screens */
+  }
+
   .aboutus-bottom-content {
     flex-direction: column;
     gap: 1rem;
@@ -174,20 +178,21 @@
 }
 
 @media (max-width: 480px) {
-  .aboutus-artcile-top {
-    gap: 0.8rem; /* Reduce the gap for very small screens */
+  .aboutus-artcile-top-1,
+  .aboutus-artcile-top-3 {
+    font-size: 1.2rem; /* Further adjust font size */
+    padding: 0.5rem; /* Reduce padding more for very small screens */
   }
 
-  .aboutus-artcile-top h1,
-  .aboutus-artcile-top p {
-    font-size: 1.2rem; /* Reduce font size further for smaller screens */
-    padding: 0.5rem; /* Reduce padding for compact layouts */
+  .aboutus-artcile-top-2 {
+    height: 200px; /* Adjust height further for mobile portrait mode */
   }
 
-  .aboutus-artcile-top img {
-    height: 150px; /* Reduce image height for portrait mode */
+  .aboutus-artcile-top-2 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
   }
-
   .aboutus-paragraph h2 {
     font-size: 1.4rem;
   }

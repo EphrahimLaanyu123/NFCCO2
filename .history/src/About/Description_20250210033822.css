@@ -174,20 +174,21 @@
 }
 
 @media (max-width: 480px) {
-  .aboutus-artcile-top {
-    gap: 0.8rem; /* Reduce the gap for very small screens */
+  .aboutus-artcile-top-1,
+  .aboutus-artcile-top-3 {
+    font-size: 1.2rem; /* Further adjust font size */
+    padding: 0.5rem; /* Reduce padding more for very small screens */
   }
 
-  .aboutus-artcile-top h1,
-  .aboutus-artcile-top p {
-    font-size: 1.2rem; /* Reduce font size further for smaller screens */
-    padding: 0.5rem; /* Reduce padding for compact layouts */
+  .aboutus-artcile-top-2 {
+    height: 200px; /* Adjust height further for mobile portrait mode */
   }
 
-  .aboutus-artcile-top img {
-    height: 150px; /* Reduce image height for portrait mode */
+  .aboutus-artcile-top-2 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
   }
-
   .aboutus-paragraph h2 {
     font-size: 1.4rem;
   }

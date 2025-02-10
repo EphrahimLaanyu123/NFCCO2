@@ -6,9 +6,11 @@ export default function Description() {
   return (
     <div className="aboutus-artcile flex">
       <section className="aboutus-artcile-top">
-          <h1>TRANSFORMING NDOTO ONE TREE AT A TIME THROUGH NDOTO FOREST</h1>
+          <p>TRANSFORMING NDOTO ONE TREE AT A TIME THROUGH NDOTO FOREST</p>
+
           <img src={aboutusimage} alt="" />
           <p>Ndoto Forest Community Conservation Organization combats climate change through forest conservation, afforestation, and community engagement, promoting biodiversity, sustainable resource use, and improved livelihoods in Samburu North Sub-County, Kenya.Ndoto Forest Community Conservation Organization combats climate change through forest conservation, afforestation, and community engagement, promoting biodiversity, sustainable resource use, and improved livelihoods in Samburu North Sub-County, Kenya.</p>
+
       </section>
 
       <section className="aboutus-article-bottom">

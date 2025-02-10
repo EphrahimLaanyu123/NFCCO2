@@ -3,6 +3,7 @@ export const projects = [
     title: "Matthias Leidinger",
     description: "Originally hailing from Austria, Berlin-based photographer Matthias Leindinger is a young creative brimming with talent and ideas.",
     src: "/src/assets/_KGP5985.JPG",  // Corrected path
+    link: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
     color: "white"
   },
   {
