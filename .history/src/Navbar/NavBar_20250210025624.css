@@ -16,10 +16,10 @@ body {
   color: rgb(0, 0, 0);
   border: none;
   padding: 10px 15px;
-  font-size: 34px;
+  font-size: 54px;
   cursor: pointer;
   z-index: 2000;
-  border-radius: 2rem;
+  border-radius: 5px;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 

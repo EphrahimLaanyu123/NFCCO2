@@ -15,14 +15,14 @@ const Hero2 = () => {
   let timeAutoNext = 7000;
   let runTimeOut;
   let runNextAuto;
-  const images = [
-    "https://ik.imagekit.io/fcuzgktdi/assets/_KGP5796.JPG?updatedAt=1739145703340",
-    "https://ik.imagekit.io/fcuzgktdi/assets/PHOTO-2024-08-03-09-18-27%20(3).jpg?updatedAt=1739127821694",
-    "https://ik.imagekit.io/fcuzgktdi/assets/_KGP6807%20copy.JPG?updatedAt=1739145731456",
-    "https://ik.imagekit.io/fcuzgktdi/assets/_KGP6268%20(2).JPG?updatedAt=1739145921855"
-  ];
-  useEffect(() => {
 
+  useEffect(() => {
+    const images = [
+      "https://ik.imagekit.io/fcuzgktdi/assets/_KGP5796.JPG?updatedAt=1739145703340",
+      "https://ik.imagekit.io/fcuzgktdi/assets/_KGP6807%20copy.JPG?updatedAt=1739145731456",
+      "https://ik.imagekit.io/fcuzgktdi/assets/PHOTO-2024-08-03-09-18-27%20(3).jpg?updatedAt=1739127821694",
+      "https://ik.imagekit.io/fcuzgktdi/assets/_KGP6268%20(2).JPG?updatedAt=1739145921855"
+    ];
         let loadedCount = 0;
 
     images.forEach(image => {
