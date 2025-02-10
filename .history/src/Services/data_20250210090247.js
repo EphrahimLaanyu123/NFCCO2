@@ -2,9 +2,9 @@ export const projects = [
   {
     title: "Eco-tourism",
     description: "Establishing campsites, forest walks, and birdwatching activities to promote tourism and conservation of Ndoto Mountain.",
-    src: "https://ik.imagekit.io/fcuzgktdi/assets/pexels-minan1398-1066226.jpg?updatedAt=1739006332477" ,
-    color: "#AAB396"
-  },
+    src: "path-to-image10.jpg",
+    color: "#073B4C"
+  }
   {
     title: "Community Sensitization and Awareness Creation",
     description: "Creating awareness and providing training on sustainable conservation practices, including farming, beekeeping, and enterprise skills development.",
@@ -20,7 +20,7 @@ export const projects = [
   {
     title: "Sustainable Aloe Vera Farming",
     description: "Growing Aloe secundiflora for sustainable production of soap, lotion, and other by-products to improve household income.",
-    src: "https://ik.imagekit.io/fcuzgktdi/assets/_KGP6049.JPG?updatedAt=1739167498324",
+    src: "https://ik.imagekit.io/fcuzgktdi/assets/pexels-van-2757657-4299556.jpg",
     color: "#FFFFFF"
   },
   {

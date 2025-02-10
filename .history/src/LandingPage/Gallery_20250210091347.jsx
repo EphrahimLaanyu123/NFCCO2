@@ -37,7 +37,7 @@ const Gallery = () => {
         ))}
       </div>
       <div className="flex justify-center mt-6">
-        <a href="/#/gallery">
+        <a href="/?gallery">
           <button className="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition duration-300">
             View Full Gallery
           </button>

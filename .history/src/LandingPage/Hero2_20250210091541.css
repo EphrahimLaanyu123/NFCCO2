@@ -84,7 +84,7 @@ header a {
   color: #925440;
 }
 
-.carousel .list .item .buttons, .see-more {
+.carousel .list .item .buttons, see {
   display: grid;
   grid-template-columns: repeat(2, 130px);
   grid-template-rows: 40px;
@@ -95,7 +95,6 @@ header a {
 .carousel .list .item .buttons button {
   border: none;
   background-color: #eee;
-  color: #000;
   letter-spacing: 3px;
   font-family: Poppins;
   font-weight: 500;

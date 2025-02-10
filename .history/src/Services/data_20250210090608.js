@@ -20,7 +20,7 @@ export const projects = [
   {
     title: "Sustainable Aloe Vera Farming",
     description: "Growing Aloe secundiflora for sustainable production of soap, lotion, and other by-products to improve household income.",
-    src: "https://ik.imagekit.io/fcuzgktdi/assets/_KGP6049.JPG?updatedAt=1739167498324",
+    src: "https://ik.imagekit.io/fcuzgktdi/assets/pexels-van-2757657-4299556.jpg",
     color: "#FFFFFF"
   },
   {

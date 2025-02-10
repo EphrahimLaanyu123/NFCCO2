@@ -118,7 +118,7 @@ const Hero2 = () => {
               <div className="title">NDOTO FOREST</div>
               <div className="topic">COMMUNITY CONSERVATION ORGANIZATION</div>
               <div className="des">
-              Ndoto Forest is a thriving conservation area dedicated to preserving biodiversity and promoting sustainable practices. It serves as a haven for wildlife, indigenous trees, and community-driven conservation initiatives aimed at protecting nature for future generations.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. 
               </div>
               <div className="buttons">
                 <Link to="./about" className='see-more'>                
@@ -135,7 +135,7 @@ const Hero2 = () => {
               <div className="title">NDOTO FOREST</div>
               <div className="topic">COMMUNITY CONSERVATION ORGANIZATION</div>
               <div className="des">
-  Ndoto Forest is a thriving conservation area dedicated to preserving biodiversity and promoting sustainable practices. It serves as a haven for wildlife, indigenous trees, and community-driven conservation initiatives aimed at protecting nature for future generations.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
               </div>
               <div className="buttons">
               <Link to="./about" className='see-more'>                
@@ -151,7 +151,7 @@ const Hero2 = () => {
               <div className="title">NDOTO FOREST</div>
               <div className="topic">COMMUNITY CONSERVATION ORGANIZATION</div>
               <div className="des">
-  Ndoto Forest is a thriving conservation area dedicated to preserving biodiversity and promoting sustainable practices. It serves as a haven for wildlife, indigenous trees, and community-driven conservation initiatives aimed at protecting nature for future generations.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
               </div>
               <div className="buttons">
               <Link to="./about" className='see-more'>                
@@ -167,7 +167,7 @@ const Hero2 = () => {
               <div className="title">NDOTO FOREST</div>
               <div className="topic">COMMUNITY CONSERVATION ORGANIZATION</div>
               <div className="des">
-  Ndoto Forest is a thriving conservation area dedicated to preserving biodiversity and promoting sustainable practices. It serves as a haven for wildlife, indigenous trees, and community-driven conservation initiatives aimed at protecting nature for future generations.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
               </div>
               <div className="buttons">
               <Link to="./about" className='see-more'>                
